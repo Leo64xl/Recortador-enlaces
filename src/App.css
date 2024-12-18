@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fce4ec;
+  color: #880e4fbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cajita {
+  font-size: 42px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: solid #f8bbd0;
+  border-radius: 5px;
+  width: 95%;
+  margin-bottom: 10px;
+  
+}
+
+button {
+  background-color: #e67a9e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #f06292;
+}
+
+a {
+  color: #d81b60;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
