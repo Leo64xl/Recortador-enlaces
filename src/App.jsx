@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { IoCopy, IoCut, IoHeart } from 'react-icons/io5'
+import { IoAlertCircle, IoCopy, IoCut, IoHeart } from 'react-icons/io5'
 import './App.css'
 
 function App() {
@@ -19,13 +19,16 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className='cajita'>Recortador de URLs <IoCut /></h1>
+      <h1 className='cajita'>Fuera de Servicio, atte Leo. <IoAlertCircle /></h1>
+      
+      {/*
       <input
         type="text"
         value={longUrl}
         onChange={(e) => setLongUrl(e.target.value)}
         placeholder="Ingresa una URL Valida"
       />
+
       <button onClick={shortenUrl}>Generar URL <IoHeart /></button>
       {shortUrl && (
         <p>
@@ -33,6 +36,7 @@ function App() {
           <IoCopy onClick={copyToClipboard} style={{ cursor: 'pointer', marginLeft: '10px' }} />
         </p>
       )}
+       */}
     </div>
   )
 }
